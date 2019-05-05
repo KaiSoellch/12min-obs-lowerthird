@@ -24,7 +24,7 @@
 .title {
   background: rgba(255, 255, 255, 0.9);
   flex: 1;
-  border-right: 5px black solid;
+  border-right: 5px var(--main-brand-secondary-color) solid;
   padding: 0 15px;
   display: flex;
   flex-flow: column;
