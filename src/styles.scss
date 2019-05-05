@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Blanch";
+  src: url(assets/BLANCH_CAPS.otf);
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: "Blanch";
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-brand-color: rgb(241, 92, 85);
+  --main-brand-secondary-color: rgba(63, 64, 62);
+}
